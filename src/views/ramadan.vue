@@ -7,13 +7,13 @@
     <div class="routine-container">
       <div class="routine routine--template10" id="routine" ref="routine">
         <div class="dassste">
-          <input type="text" class="date-input" v-model="routineDate" />
+          <input type="text" class="date-inpssut" v-model="routineDate" />
         </div>
 
         <div class="flex-container">
           <div v-for="(r, i) in routinessDate" :key="i">
             <div class="dassssste">
-              <input type="text" class="date-input" v-model="r.time" />
+              <input type="text" class="date-inpssut" v-model="r.time" />
             </div>
           </div>
         </div>
@@ -32,7 +32,7 @@ export default {
       routineDate: "০৮ রমজান ০১ মে ,শুক্রবার ২০২০",
       routinessDate: [
         {
-          time: "০৩.৫৯ মি."
+          time: "৩.৫৯ মি."
         },
 
         {
@@ -65,17 +65,20 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;600;700&display=swap");
 
-.template-page {
-  font-family: "Hind Siliguri", sans-serif;
-}
+
+
 
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
   margin-top: 99px;
   margin-left: 170px;
+}
+
+.date-inpssut {
+  max-width: 100%;
+  text-align: center;
 }
 .dassste {
   margin-left: 224px;
@@ -152,7 +155,11 @@ export default {
   margin-left: 104px;
   margin-top: 22px;
 }
-
+.date-inpssut{
+    max-width: 100%;
+    text-align: center;
+    width: 477px;
+}
 .routine-tabsle th {
   border: 1px solid #fff;
   border-collapse: collapse;
