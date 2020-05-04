@@ -103,8 +103,8 @@ export default {
     },
   data() {
     return {
-      routineDate: "২২ এপ্রিলের সময়সুচি",
-      coronaBreak: "জাতীয় সঙ্গীত ও করোনা সচেতনতা (সকাল ১১ঃ০০-১১ঃ০৫)",
+      routineDate: "৩ মে এর সময়সূচি ",
+      coronaBreak: "জাতীয় সঙ্গীত ও করোনা সচেতনতা (সকাল সকাল ১০.৪০-১০.৪৫)",
       prakPrathomik: {
         class: "প্রাক-প্রাথমিক",
         subject1: "ক্রিয়াকালাপ ভিডিও",

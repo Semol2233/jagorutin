@@ -102,7 +102,7 @@ export default {
   },
   data() {
     return {
-      routineDate: "২২ এপ্রিলের সময়সুচি",
+      routineDate: "৩ মে এর সময়সূচি",
       routine: [
         {
           class: "৭ম",
@@ -163,6 +163,7 @@ export default {
 </script>
 
 <style>
+
 .routine--template .routine-table td {
   border: 1px solid #fff;
   color: #fff;
